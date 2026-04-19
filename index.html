@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo</title>
+</head>
+
+<body>
+</section>
+    <main class="main-content">
+  <header class="header-banner">
+    <h1 class="main-title">Gran Sorteo</h1>
+    <img src="assets/sorteo.jpg" alt="Numeros">
+  </header>
+
+  <section class="input-section">
+    <h2 class="section-title">Ingrese los numeros</h2>
+    <div class="input-wrapper">
+      <input type="text" id="numero" class="input-name" placeholder="Ingrese un numero">
+      <button class="button-add" onclick="agregarAmigo()">Añadir</button>
+    </div>
+
+    <div id="resultado" class="result-list" aria-live="polite"></div>
+
+    <div class="button-container">
+      <button class="button-draw" onclick="sortearNumero()" aria-label="Sortear">
+        Sortear
+      </button>
+    </div>
+  </section>
+</main>
+</body>
+</html>
